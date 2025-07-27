@@ -1,1 +1,111 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lilita+One&family=Special+Gothic+Expanded+One&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+
+
+.titleee {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 400px;
+}
+
+
+body {
+  background-color: #f0f8ff;
+  padding: 20px;
+  margin: 0;
+}
+
+.title {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  display: inline-block ;
+  position:relative;
+  
+  
+  max-width: 600px;
+  background: pink;
+  padding: 30px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #0077b6;
+  margin-bottom: 30px;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+form select,
+form textarea,
+form input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+
+
+body {
+  background-image: url('https://media.collegedekho.com/media/img/institute/crawled_images/DSC_5883-900.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 20px;
+  margin: 0;
+
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background-color: hotpink;
+  color: white;
+}
+
+.buttons button:hover {
+  background-color: #0077b6;              /* CHANGES COLOUR WHEN THE CURSOR IS ON IT THE PINK TO BLACK TRANSITION */
+}
+
+button[type="reset"] {
+  background-color: #ccc;
+}
+
+.message {
+  margin-top: 15px;
+  font-weight: bold;
+  color: green;
+}
