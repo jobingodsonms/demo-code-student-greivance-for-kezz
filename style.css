@@ -4,7 +4,7 @@
 
 * {
   box-sizing: border-box;
-  font-family: "Playwrite AU QLD", cursive;    /* WHY the above one isnt working because this is the main one this applies to every text */
+  font-family: Arial, sans-serif;                /* WHY the above one isnt working because this is the main one this applies to every text */
 }
 
 
