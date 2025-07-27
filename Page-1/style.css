@@ -1,1 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lilita+One&family=Playwrite+AU+QLD:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap');                         /*IMPORTHING FONT FROM GOOGLE FONT (ISN'T WORKING HERE THERE ARE SEVERAL METHODS*/
+
+
+
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;                  /* WHY the above one isnt working because this is the main one this applies to every text */
+}
+
+
+
+
+body {
+  background-color: #ffffff;                    /* BACKGROUND COLOUR FOR OUR PAGE WHICH IS WHITE  */
+  margin: 0;
+  padding: 20px;
+}
+
+
+
+h1 {
+  font-size: 36px;                               /* THIS APPLIES TO H1*/
+  color: #000000;
+  margin-bottom: 50px;                           /* THIS IS THE BOTTOM MARGIN IF INCREASED IT PUSHED THE TABLE LOWER*/
+}
+
+
+
+h2 {
+  font-size: 20px;                                 /* THIS APPLIES TO H2*/
+  margin: 10px 0;
+  color: #000000;
+}
+
+
+
+form {
+  background: pink;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  width: 60%;                                        /*HERE IF IT IS 100% THE PINK FORM WILL COVER THE PAGE FULLY  */
+}
+
+
+
+table {
+  width: 100%;                                     /* 100% represents the thing within the table will occupy it fully (here table is the pink one) */
+}
+
+
+
+input, select {                                /* HERE THE INPUT REPRESENTS THE NAME, AGE, REGISTER NUMBER*/
+  width: 100%;                                 /* SELECT REPRESENTS THE DROP DOWN MENU */ 
+  padding: 10px;
+  margin: 8px 0;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;                          /* BORDER FOR THE WHITE CONTAINER WHERE WE ENTER OUR DETAILS 
+                                                    #ccc is GREY SOOM THE WHITE BOXES AND SEE IT WILL HAVE GREY IN IT    */
+}
+
+
+
+.buttons button {
+  background-color: hotpink;
+  border: none;                                      /*.buttons is the class we used In HTML we are calling it here and styling it here */
+  padding: 8px 16px;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;                                      /* when the curson points */
+  transition: background-color 0.3s ease;                    /* The amount of time takes for the transiton when we keep the curson on the submit button */
+}
+
+
+
+.buttons button:hover {
+  background-color: #000000;              /* CHANGES COLOUR WHEN THE CURSOR IS ON IT THE PINK TO BLACK TRANSITION */
+}
+
+
+
+.buttons a {
+  color: white;
+  text-decoration: none;                     /*COLOUR OF THE text within the submit button*/
+  display: block;
+}
 
