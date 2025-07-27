@@ -1,1 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <link rel="icon" type="image/png" href="logo.png" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SAEC | Student Feedback</title>
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+<body>
+
+  <div class="container">
+  <body style="color:white; background-color: black;">
+
+    <h1 >Student Feedback</h1>
+
+    <form id="grievanceForm">
+      <label for="area">Area of Concern:</label>
+      <select id="area" name="area" required>
+        <option value="">-- Select an area --</option>
+        <option value="Library">Library</option>
+        <option value="Hostel">Hostel</option>
+        <option value="Canteen">Canteen</option>
+        <option value="Academics">Academics</option>
+        <option value="Lab">Lab</option>
+        <option value="Bus">Bus</option>
+        <option value="Class Room">Class Room</option>
+      </select>
+
+      <label for="issue">Describe the Issue:</label>
+      <textarea id="issue" name="issue" rows="5" required placeholder="Explain your issue in detail..."></textarea>
+
+      <label for="comments">Additional Comments (optional):</label>
+      <textarea id="comments" name="comments" rows="3" placeholder="Add any comments..."></textarea>
+
+      <label for="image">Upload Image (optional):</label>
+      <input type="file" id="image" name="image" accept="image/*" />
+
+      <div class="buttons">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </div>
+      
+      
+
+      <p id="message" class="message"></p>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
 
