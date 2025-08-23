@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lilita+One&family=Playwrite+AU+QLD:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap');                         /*IMPORTHING FONT FROM GOOGLE FONT (ISN'T WORKING HERE THERE ARE SEVERAL METHODS*/
 
 
-
-
 * {
   box-sizing: border-box;
   font-family: Arial, sans-serif;                  /* WHY the above one isnt working because this is the main one this applies to every text */
